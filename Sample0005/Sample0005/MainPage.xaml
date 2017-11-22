@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
              xmlns:local="clr-namespace:Sample0005"
-             x:Class="Sample0005.MainPage">
+             x:Class="Sample0005.Views.MainPage"
+             Title="MainPage">
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center">
             <BoxView Color="Red" VerticalOptions="EndAndExpand" />
@@ -10,7 +13,7 @@
         </StackLayout>
 
         <StackLayout HorizontalOptions="Center">
-            <BoxView Color="Red" VerticalOptions="EndAndExpand" />//
+            <BoxView Color="Red" VerticalOptions="EndAndExpand" />
             <BoxView Color="Blue" />
         </StackLayout>
     </ContentPage.Content>
