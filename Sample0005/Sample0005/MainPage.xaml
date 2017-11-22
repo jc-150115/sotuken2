@@ -7,7 +7,12 @@
              x:Class="Sample0005.MainPage"
              Title="MainPage">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout VerticalOptions="Center">
+            <BoxView Color="Red" VerticalOptions="EndAndExpand" />
+            <BoxView Color="Blue" />
+        </StackLayout>
+
+        <StackLayout HorizontalOptions="Center">
             <BoxView Color="Red" VerticalOptions="EndAndExpand" />
             <BoxView Color="Blue" />
         </StackLayout>
