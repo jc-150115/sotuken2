@@ -10,7 +10,7 @@
         </StackLayout>
 
         <StackLayout HorizontalOptions="Center">
-            <BoxView Color="Red" VerticalOptions="EndAndExpand" />
+            <BoxView Color="Red" VerticalOptions="EndAndExpand" />//
             <BoxView Color="Blue" />
         </StackLayout>
     </ContentPage.Content>
